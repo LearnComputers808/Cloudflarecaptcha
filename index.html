@@ -1,8 +1,13 @@
-<!-- Cloudflare Turnstile -->
-<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-
-<form action="/your-form-handler" method="POST">
-  <div class="cf-turnstile"
-       data-sitekey="0x4AAAAAAB_f_t4FxK3wHb8R"
-       data-theme="auto">
-  
+<html>
+  <head>
+    <title>reCAPTCHA demo: Simple page</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6LeCfUgsAAAAAGj-NTn8ymH9e8k7CnUpXJgFzPFE"></div>
+      <br/>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
